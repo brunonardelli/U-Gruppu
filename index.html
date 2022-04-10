@@ -1,32 +1,80 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<!-- Teste -->
 
+<html lang="pt-br">
     <head>
+        <title>Bags 21</title>
         <meta charset="UFT-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Encontre modelos de Bags, perfeitos 
+        para carregar seus pertences essenciais e garantir o estilo. 
+        Confira todos os tipos de Bags da Bags21!">
+
+        <!-- View Port -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Bags 21</title>
-        <script src="https://kit.fontawesome.com/4bcba7fa66.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="style.css">
-    </head>
 
-    <body>
+        <!-- CSS -->
+        <link rel="stylesheet" href="public/styles/global.css">
+        <link rel="stylesheet" href="public/styles/home.css">
+
+        <!-- FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
         
-        <section id="header">
-            <a href="#"><img src="img/icon/banner.png" width="200" height="auto" class="logo" alt=""></a>
+    </head>
+    <body>
+        <header>
+            <img class="header-logo" src="public/assets/Logo2.png" alt="Bags21 Logo">
+            <nav class="header-menu">
+                <a href="index.html">Home</a>
+                <a href="produtos.html">Produtos</a>
+                <a href="sobre.html">Sobre</a>
+                <a href="atendimento.html">Atendimento</a>
+                <a href="login.html">Login</a>
+                <a class="menu-carrinho" href="carrinho.html" ><img id="carrinho" src="public/assets/icons/bag.png" alt="Meu carrinho"></a>
 
-            <div>
-                <ul id="navbar">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="login.html">Login</a></li>
-                    <li><a href="register.html">Casdastrar-se</a></li>
-                    <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
-                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <div>
+
+                </div>
+                <img src="" alt="">
+            </section>
+            <section>
+
+            </section>
+            <section>
+
+            </section>
+        </main>
+
+        <footer>
+
+        </footer>
+
+        <!-- MODAL -->
+
+        <div class="modal-wrapper ">
+            <div class="modal">
+                <h2>Excluir Pergunta</h2>
+                <p>Tem certeza que você deseja excluir esta pergunta?</p>
+
+                <form action="#" method="POST">
+                    <label class="sr-only" for-id="password">Digite sua senha admin</label>
+                    <input type="password" id="password" name="password" placeholder="Digite sua senha"/>
+                    
+                    <div class="buttons">
+                        <div class="button grey cancel">Cancelar</div>
+                        <button class="red">Sim, excluir</button>
+                    </div>
+                </form>
             </div>
-        </section>
+        </div>
 
-        <script src="script.js"></script>
+        {# <script src="script.js"></script> #}
     </body>
 
 </html>

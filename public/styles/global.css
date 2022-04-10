@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    --black: #000000;
+    --white: #FAFAFA;
+    --pink: #FF2E63;
+    --light-pink: #FA7A99;
+    --blue: #3485FF;
+    --background: #FAEEFA;
+    --overlay: #040911;
+    --icons-details: #C39EA0;
+
+    --purple-dark: #560238;
+    --purple-medium:#9F2C75;
+    --purple-light:#D281B5;
+    --purple-blue: #A1B2CD;
+
+    /* 1rem = 16px (User Agent) = 100% (User Agent)*/
+    font-size: 62.5%; /* 10px */
+}
+
+body{
+    /*display: flex;
+    height: 100vh;*/
+    background: var(--background);
+}
+
