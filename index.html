@@ -9,43 +9,73 @@
         para carregar seus pertences essenciais e garantir o estilo. 
         Confira todos os tipos de Bags da Bags21!">
 
-        <!-- View Port -->
+
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- CSS -->
         <link rel="stylesheet" href="public/styles/global.css">
         <link rel="stylesheet" href="public/styles/home.css">
+        <link rel="stylesheet" href="public/styles/modal.css">
+        <link rel="stylesheet" href="public/styles/header.css">
+
+        
+        <!--ICONS-->
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
 
         <!-- FONTS -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
         
     </head>
     <body>
         <header>
             <img class="header-logo" src="public/assets/Logo2.png" alt="Bags21 Logo">
             <nav class="header-menu">
-                <a href="index.html">Home</a>
-                <a href="produtos.html">Produtos</a>
-                <a href="sobre.html">Sobre</a>
-                <a href="atendimento.html">Atendimento</a>
-                <a href="login.html">Login</a>
-                <a class="menu-carrinho" href="carrinho.html" ><img id="carrinho" src="public/assets/icons/bag.png" alt="Meu carrinho"></a>
-
+                <a class="menu menu-active" href="#">Home</a>
+                <a class="menu" href="src/produtos.html">Produtos</a>
+                <a class="menu" href="sobre.html">Sobre</a>
+                <a class="menu" href="atendimento.html">Atendimento</a>
+                <a class="menu" href="src/login.html">Login</a>
+                <a class="menu" href="carrinho.html" > <i class="far fa-shopping-bag" alt="Meu carrinho"></i></a>
             </nav>
         </header>
 
         <main>
-            <section>
-                <div>
-
+            <section class="banner">
+                <div class="texto">
+                    <h4>Ofertas Imperdíveis</h4>
+                    <h2>em TODOS os produtos</h2>
+                    <p>Produtos em até <strong>70%</strong> de desconto</p>
+                    <button class="button">Aproveite!</button>
                 </div>
-                <img src="" alt="">
+                <img src="public/assets/banner.png" alt="Mulher usando uma bolsa">
             </section>
-            <section>
 
+            <section id="produto-1" class="section-p1" >
+                <h2>Produtos em destaque</h2>
+                <p>Coleção Nike Shoulder Bag</p>
+                <div class="prod-container">
+                    <div class="prod">
+                        <img src="public/assets/products/nike_marinho.png" alt="Nike Shouder Bag cor azul marinho">
+                        <div class="des">
+                            <span>Nike</span>
+                            <h5>Shoulder Bag Nike - Azul Marinho</h5>
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <h4>R$ 109,90</h4>
+                        </div>
+                        <a href="#"><i class="fal fa-shopping-cart"></i></a>
+                    </div>
+                </div>
+                
             </section>
+
             <section>
 
             </section>
@@ -57,20 +87,12 @@
 
         <!-- MODAL -->
 
-        <div class="modal-wrapper ">
+        <div class="modal-wrapper">
             <div class="modal">
-                <h2>Excluir Pergunta</h2>
-                <p>Tem certeza que você deseja excluir esta pergunta?</p>
-
-                <form action="#" method="POST">
-                    <label class="sr-only" for-id="password">Digite sua senha admin</label>
-                    <input type="password" id="password" name="password" placeholder="Digite sua senha"/>
-                    
-                    <div class="buttons">
-                        <div class="button grey cancel">Cancelar</div>
-                        <button class="red">Sim, excluir</button>
-                    </div>
-                </form>
+                <div class="comingsoon">
+                    <h2>Coming Soon!</h2>
+                    <button class="button">Fechar</button>
+                </div>
             </div>
         </div>
 
