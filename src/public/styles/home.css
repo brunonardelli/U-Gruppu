@@ -44,7 +44,10 @@
     font-size: 2.3rem;
 }
 
+/* ---------------- Produtos em destaque ---------------- */
+
 #produto-1 {
     background-color: var(--background_dark);
     text-align: center;
 }
+
