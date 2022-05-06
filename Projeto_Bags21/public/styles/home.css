@@ -1,0 +1,53 @@
+.banner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.banner .texto{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 4.2rem;
+    box-shadow: 0 1.5rem 1.5rem rgba(0, 0, 0, 0.4);
+    padding: 4rem;
+    border-radius: 10px;
+    background: var(--background_dark);
+}
+
+.banner .texto h4{
+    font-weight: 700;
+    color: var(--pink-dark);
+}
+
+.banner .texto h2{
+    color: var(--purple-medium);
+    filter: brightness(1.2);
+    padding-top: 1.3rem;
+}
+
+.banner .texto p{
+    color: var(--purple-light);
+    padding-bottom: 3rem;
+}
+
+.banner img{
+    background-image: url("assets/banner.png");
+    height: 89vh;
+}
+
+.banner .button{
+    margin-left: 20%;
+    width: 60%;
+    padding: 3rem; 
+    box-shadow: 0 1.5rem 1.5rem rgba(0, 0, 0, 0.4);  
+    font-size: 2.3rem;
+}
+
+/* ---------------- Produtos em destaque ---------------- */
+
+#produto-1 {
+    background-color: var(--background_dark);
+    text-align: center;
+}
+

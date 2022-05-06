@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    --black: #000000;
+    --white: #FAFAFA;
+    --pink: #FF2E63;
+    --pink-light: #FA7A99;
+    --background: #FAEEFA;
+    --overlay: #040911;
+    --background_dark: #F6DFF6;
+
+    --pink-dark: #2B1219;
+    --purple-medium:#9F2C75;
+    --purple-light:#D281B5;
+
+    /* 1rem = 16px (User Agent) = 100% (User Agent)*/
+    font-size: 62.5%; /* 10px */
+}
+
+body{
+    background: var(--background);
+}
+
+button, .button{
+    font-family: 'Poppins';
+    font-weight: 500;
+    line-height: 0;
+
+    border-radius: 4.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: var(--purple-medium);
+    filter: brightness(1.2);
+    color: var(--white);
+
+    transition: filter .5s;
+
+    cursor: pointer;
+}
+
+button:hover, .button:hover{
+    filter: brightness(1.5);
+}
+
+/* --------------- HEADER ---------------*/
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.4rem 8rem;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+
+header .header-logo{
+    width: 30rem;
+}
+
+header .header-menu{
+    display: flex;
+    gap: 5rem;
+    position: relative;
+}
+
+header .header-menu .menu{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 2.4rem;
+    color: var(--pink-dark);
+
+    transition: filter .2s;
+
+    cursor: pointer;
+}
+
+header .header-menu .menu:hover,
+header .header-menu .menu-active{
+    color: var(--pink-light);
+    filter: brightness(1.2);
+}
+
+header .header-menu .menu-active::after,
+header .header-menu .menu:hover::after{
+    content: "";
+    width: 63%;
+    height: 2px;
+    background: var(--pink-light);
+    position: absolute;
+    bottom: -4px;
+    left: -3px;
+}
