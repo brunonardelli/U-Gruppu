@@ -9,11 +9,11 @@
 html{
     --black: #000000;
     --white: #FAFAFA;
-    --pink: #FF2E63;
-    --pink-light: #FA7A99;
-    --background: #FAEEFA;
+    --pink: #4DBDEB;
+    --blue-light: #008fce;
+    --background: #f5f5f5;
     --overlay: #040911;
-    --background_dark: #F6DFF6;
+    --background_blue: #DAF1FB;
 
     --pink-dark: #2B1219;
     --purple-medium:#9F2C75;
@@ -84,7 +84,7 @@ header .header-menu .menu{
 
 header .header-menu .menu:hover,
 header .header-menu .menu-active{
-    color: var(--pink-light);
+    color: var(--blue-light);
     filter: brightness(1.2);
 }
 
@@ -93,7 +93,7 @@ header .header-menu .menu:hover::after{
     content: "";
     width: 63%;
     height: 2px;
-    background: var(--pink-light);
+    background: var(--blue-light);
     position: absolute;
     bottom: -4px;
     left: -3px;

@@ -12,7 +12,7 @@
     box-shadow: 0 1.5rem 1.5rem rgba(0, 0, 0, 0.4);
     padding: 4rem;
     border-radius: 10px;
-    background: var(--background_dark);
+    background: var(--background_blue);
 }
 
 .banner .texto h4{
@@ -47,7 +47,7 @@
 /* ---------------- Produtos em destaque ---------------- */
 
 #produto-1 {
-    background-color: var(--background_dark);
+    background-color: var(--background_blue);
     text-align: center;
 }
 
