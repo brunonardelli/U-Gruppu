@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho</title>
+    <script src="https://kit.fontawesome.com/4bcba7fa66.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="public/styles/style.css">
+
+    <!--ICONS-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+</head>
+<body>
+    <section id="header">
+      <a href="index.html">
+        <img src="public/assets/Logo.png" width="150" height="auto" class="logo" alt="">
+      </a>
+
+      <div>
+        <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a class="active" href="carrinho.html"><i class="far fa-shopping-bag"></i></a></li>
+        </ul>
+      </div>
+    </section>
+        
+    <section id="cart-container" class="cart-products">
+
+        <h2>Carrinho</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <td>Remover</td>
+                    <td>Imagem</td>
+                    <td>Produto</td>
+                    <td>Preço</td>
+                    <td>Quantidade</td>
+                    <td>Total</td>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="fas fa-trash-alt"></i></a></td>
+                    <td><img class="small-img" src="public/assets/products/nike_marinho.png" alt=""></td>
+                    <td>
+                        <h5>Shoulder Bag Nike - Marinho</h5>
+                    </td>
+                    <td>
+                        <h5>R$109,90</h5>
+                    </td>
+                    <td><input value="1" type="number"></td>
+                    <td>
+                        <h5>R$109,90</h5>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><a href="#"><i class="fas fa-trash-alt"></i></a></td>
+                    <td><img class="small-img" src="public/assets/products/nike_vermelho.png" alt=""></td>
+                    <td>
+                        <h5>Shoulder Bag Nike - Vermelha</h5>
+                    </td>
+                    <td>
+                        <h5>R$109,90</h5>
+                    </td>
+                    <td><input class="w-25 pl-1" value="1" type="number"></td>
+                    <td>
+                        <h5>R$109,90</h5>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+<!-- Finalizar
+
+    <section id="cart-bottom" class="container">
+        <div>
+            <div class="cupom">
+                <div>
+                    <h5>CUPOM DE DESCONTO</h5>
+                    <p>Adicione o seu cupom aqui</p>
+                    <input type="text" placeholder="Código do Cupom">
+                    <button>OK</button>
+                </div>
+            </div>
+
+            <div class="total">
+                <div>
+                    <h5>TOTAL DA COMPRA</h5>
+                    <div>
+                        <h6>Subtotal</h6>
+                        <p>R$219,80</p>
+                    </div>
+                    <div>
+                        <h6>Frete</h6>
+                        <p>R$4,00</p>
+                    </div>
+                    <hr class="second-hr">
+                    <div>
+                        <h6>Total</h6>
+                        <p>R$223,8</p>
+                    </div>
+
+                    <button>Finalizar Compra</button>
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/icon/logo.png" width="250" height="auto" alt="">
+            <h4>Contato</h4>
+            <p>########</p>
+            <div class="follow">
+                <h4>Siga nossas Redes Sociais</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>Sobre</h4>
+            <a href="#">Sobre nós</a>
+            <a href="#">Sobre as Entregas</a>
+            <a href="#">Politica de Privacidade</a>
+            <a href="#">Termos e Condições</a>
+            <a href="#">Entre em Contato</a>
+        </div>
+    </footer>
+</body>
+</html>
